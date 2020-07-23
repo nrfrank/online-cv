@@ -23,25 +23,25 @@ sidebar:
   stack-overflow: 5258292/wormhole # Number/Username, e.g. 123456/alandoe
   codewars:
 
-  #    languages:
-  #      - idiom: English
-  #        level: Native
-  #
-  #      - idiom: French
-  #        level: Professional
-  #
-  #      - idiom: Spanish
-  #        level: Professional
-
-#    interests:
-#      - item: Climbing
-#        link:
+#  languages:
+#    - idiom: English
+#      level: Native
 #
-#      - item: Snowboarding
-#        link:
+#    - idiom: French
+#      level: Professional
 #
-#      - item: Cooking
-#        link:
+#    - idiom: Spanish
+#      level: Professional
+#
+#  interests:
+#    - item: Climbing
+#      link:
+#
+#    - item: Snowboarding
+#      link:
+#
+#    - item: Cooking
+#      link:
 
 career-profile:
   title: Career Profile
@@ -177,28 +177,44 @@ publications:
       authors: S. Ganguly, N. Frank
       conference: Proc. of the 12th MIT Sloan Sports Analytics Conf. (2018)
 
-#
-#skills:
-#    title: Skills &amp; Proficiency
-#
-#    toolset:
-#      - name: Python
-#        level: 95%
-#
-#      - name: Javascript & jQuery
-#        level: 98%
-#
-#      - name: Angular
-#        level: 98%
-#
-#      - name: HTML5 & CSS
-#        level: 95%
-#
-#      - name: Ruby on Rails
-#        level: 85%
-#
-#      - name: Sketch & Photoshop
-#        level: 60%
+
+skills:
+    title: Technical Skills
+
+    skillset:
+      - category: Programming
+        items: Python, SQL, Java, C++, Bash, R, Javascript, HTML
+
+      - category: Frameworks
+        items: AWS Sagemaker, TensorFlow Extended, Docker, Presto, Apache Spark, Horovod, Kubeflow, MLflow, CircleCI
+
+      - category: Packages
+        items: TensorFlow, Pandas, NumPy, scikit-learn, matplotlib, seaborn, Jupyter, Adanet, XGBoost, spaCy, BeautifulSoup
+
+      - category: Databases
+        items: AWS S3/Glue/Athena, MongoDB, Oracle, MySQL, SQL Server
+
+      - category: Methods
+        items: Deep Learning, Representation Learning & Embeddings, Variational & Probablistic Modeling, Graph NN, NLP
+
+    toolset:
+      - name: Python
+        level: 95%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
