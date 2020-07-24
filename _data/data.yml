@@ -72,16 +72,18 @@ education:
 
 experiences:
   - role: AI Scientist - Tech Lead, ML Platform
+    location: Chicago, IL
     time: Jan. 2020 - Present
     company: Stats Perform (formerly STATS, LLC)
     details: |
-      - Lead the development of a machine learning training framework, built on Docker, EKS and SageMaker, to dramatically speed up iteration
+      - Lead the development of a <b>machine learning training framework</b>, built on Docker, EKS and SageMaker, to dramatically speed up iteration
         cycles and reduce time to deployment. Trained teams internationally on using this and other technologies in their workflow.
       - Spearhead development of ML Platform roadmap to modernize company’s AI infrastructure and improve efficiency; evaluate potential
         tools (AWS Sagemaker Studio, ML Flow and Kubeflow). Advise on team resourcing and project allocation.
       - Train and deploy model using GNNs to predict minutes played of NBA players with RMSE (5.75) lower than human domain experts (6.15).
 
   - role: AI Scientist - Tech Lead, STATS VQ
+    location: Chicago, IL
     time: Jan. 2019 - Jan. 2020
     company: Stats Perform (formerly STATS, LLC)
     details: |
@@ -89,33 +91,35 @@ experiences:
       for sports book customers, generating [$500k of new business](https://sportshandle.com/william-hill-stats-perform-prop-deal/)
       in the first six months. Oversaw on-time completion of deadlines for the NBA & NFL 2018-19 playoffs as well as 2019-20 season,
       requiring delivery of 11 new models into production while automating existing manual process for legacy products.
-      - Drove development of an internal TensorFlow based model development framework with packages for dataset generation, versioning
+      - Drove development of an internal TensorFlow based <b>model development framework</b> with packages for dataset generation, versioning
       and metadata management, architecture definition and training, and deployment to a TensorFlow Serving RESTful API in AWS Fargate.
-      - Provide technical oversight of the VQ product: Java Spark ETL pipeline, model development, cloud infrastructure (AWS), human-in-theloop
-      interface and both internal and client-facing APIs. Guide story definition and refinement; lead weekly/quarterly planning sessions.
-      - Aide design and creation of cloud data lake (AWS S3, Glue & Athena), reducing cost and easing access to historical data archived in on
+      - Provide technical oversight of the VQ product: Java <b>Spark ETL pipeline</b>, model development, cloud infrastructure (AWS), <b>human-in-theloop
+      interface</b> and both internal and client-facing APIs. Guide story definition and refinement; lead weekly/quarterly planning sessions.
+      - Aide design and creation of <b>cloud data lake</b> (AWS S3, Glue & Athena), reducing cost and easing access to historical data archived in on
       premise Oracle databases. Develop methods to query the data lake, process and split the result into datasets and store in S3.
 
   - role: Data Scientist
+    location: Chicago, IL
     time: Jan. 2017 - Jan. 2019
     company: STATS LLC, Chicago
     details: |
-      - STATS Prediction as a Service (PaaS): Co-author tools integrating ETL pipelines to deliver data to the cloud (AWS S3), generate datasets
+      - <b>STATS Prediction as a Service (PaaS)</b>: Co-author tools integrating ETL pipelines to deliver data to the cloud (AWS S3), generate datasets
       from queries executed at scale (AWS Athena), train TensorFlow models in Docker and deploy to a HTTP RESTful API endpoint (TensorFlow
       Serving with AWS SageMaker, Lambda & API Gateway). Submit to inaugural VCG AI/ML Hackathon and win most disruptive entry.
       - [STATS Edge](https://www.statsperform.com/team-performance/football/edge-analysis/):
       Refactor legacy data science pipeline and deploy existing scikit-learn models to Flask APIs. Contribute to Apache Spark ETL
       pipeline in a paired programming (XP) setting. [Optimize](https://arxiv.org/pdf/1912.13107.pdf) existing models, reducing runtime by an order of magnitude.
       - [NBA Live Win Probability](http://www.sloansportsconference.com/wp-content/uploads/2018/02/2011.pdf):
-      Achieved SOTA accuracy (88%) predicting end of game outcomes for NBA games given in-game context
-      through the use of embedding techniques. Process and release a curated dataset containing 352 features of over 8.7M NBA plays from
+      Achieved <b>SOTA accuracy (88%)</b> predicting end of game outcomes for NBA games given in-game context
+      through the use of embedding techniques. Process and <b>release a curated dataset</b> containing 352 features of over 8.7M NBA plays from
       the 2002-03 through 2016-17 seasons. Present work at 2018 Sloan Sports Analytics Conference.
       - [STATS Insights](https://www.statsperform.com/media-and-tech/viewer-engagement/):
-      Used LSI, LDA and other topic modeling techniques to classify ∼80k human generated media notes, learning templates
+      Used LSI, LDA and other topic modeling techniques to classify <b>∼80k human generated media notes</b>, learning templates
       to automate nearly half (44% ). Delivered 546 automated notes using custom Jinja-based templates for Allstate’s March Mayhem campaign
-      during the 2017 NCAA Tournament. Used learned templates to generate >19k notes across 10 international soccer leagues.
+      during the 2017 NCAA Tournament. Used learned templates to generate <b>>19k notes across 10 international soccer leagues</b>.
 
   - role: Research & Teaching Assistant
+    location: Chapel Hill, NC
     time: Aug. 2011 - Jan. 2017
     company: Dept. of Physics & Astronomy, UNC - Chapel Hill
     details: |
@@ -165,16 +169,16 @@ publications:
   #      bibendum fringilla a eu lectus.
 
   papers:
-    - title: Improved Structural Discovery and Representation Learning of Multi-Agent Data
-      authors: J. Hobbs, M. Holbrook, N. Frank, L. Sha, P. Lucey
+    - title: <a href="https://arxiv.org/pdf/1912.13107.pdf">Improved Structural Discovery and Representation Learning of Multi-Agent Data</a>
+      authors: J. Hobbs, M. Holbrook, <b>N. Frank</b>, L. Sha, P. Lucey
       conference: arXiv:1912.13107 (2019)
 
-    - title: Method and System for Interactive, Interpretable, and Improved Match and Player Performance Predictions in Team Sports
-      authors: H. Ruiz, S. Ganguly, N. Frank, P. Lucey
+    - title: <a href="https://patentimages.storage.googleapis.com/3a/b1/79/9c191d03c5d09e/US20190224556A1.pdf">Method and System for Interactive, Interpretable, and Improved Match and Player Performance Predictions in Team Sports</a>
+      authors: H. Ruiz, S. Ganguly, <b>N. Frank</b>, P. Lucey
       conference: US Patent App. 16/254,088 (January 22, 2019)
 
-    - title: The Problem with Win Probability
-      authors: S. Ganguly, N. Frank
+    - title: <a href="http://www.sloansportsconference.com/wp-content/uploads/2018/02/2011.pdf">The Problem with Win Probability</a>
+      authors: S. Ganguly, <b>N. Frank</b>
       conference: Proc. of the 12th MIT Sloan Sports Analytics Conf. (2018)
 
 

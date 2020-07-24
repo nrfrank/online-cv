@@ -14,7 +14,9 @@ h1, h2, h3, h4, h5, h6  {
 }
 
 a {
-    color: darken($theme-color, 15%);
+    //color: darken($theme-color, 15%);
+    color: $theme-color;
+    font-weight: bold;
     &:hover {
         text-decoration: underline;
         color: darken($theme-color, 30%);
@@ -161,7 +163,8 @@ p {
         text-transform: uppercase;
         font-size: 20px;
         font-weight: 500;
-        color: darken($theme-color, 15%);
+        //color: darken($theme-color, 15%);
+        color: $theme-color;
         position: relative;
         margin-top: 0;
         margin-bottom: 20px;
@@ -182,6 +185,7 @@ p {
     }
     .job-title, .degree {
         color: $text-color;
+        //color: $theme-color;
         font-size: 16px;
         margin-top: 0;
         margin-bottom: 0;
@@ -192,6 +196,13 @@ p {
         right: 0;
         top: 0;
         color: $text-grey;
+    }
+    .location {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-bottom: 10px;
+        color: $theme-color;
     }
     .company, .university {
         margin-bottom: 10px;
@@ -239,15 +250,13 @@ p {
 .skillset {
     .item {
         margin-bottom: 15px;
-        //margin-left: 0;
-        //margin-right: 0;
         overflow: hidden;
     }
     .level-title {
         font-size: 14px;
         margin-top: 0;
         margin-bottom: 12px;
-        //margin-right: 0;
+        width: 20%;
     }
     .level-bar {
         height: 12px;
